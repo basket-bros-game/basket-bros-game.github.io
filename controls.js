@@ -186,7 +186,7 @@ function addCss(){
 }
 function addBtnHome() {
  var referrer = document.referrer.toLowerCase();
- if (referrer.indexOf("https://yalogames.github.io/") !== -1) {
+ if (referrer.indexOf("https://basket-bros-game.github.io/") !== -1) {
    var e = document.createElement('button');
    e.className = 'in-game-button2'; // change class to 'in-game-button2'
    e.id = 'inGame';
@@ -196,7 +196,7 @@ function addBtnHome() {
   e.className = 'in-game-button';
   e.id = 'inGame';
   e.innerHTML = `
-    <img src="https://yalogames.github.io/assets/favicon.png" width="50px" height="60px" alt="YaloGames.github.io">`;
+    <img src="https://basket-bros-game.github.io/assets/favicon.png" width="50px" height="60px" alt="basket-bros-game.github.io">`;
     document.getElementsByTagName('body')[0].appendChild(e);
 }
 }
@@ -232,11 +232,11 @@ function returnHome(){
     if(window.hold == true){
         return;
     }
-    var newWindow = window.open("https://yalogames.github.io", "");
+    var newWindow = window.open("https://basket-bros-game.github.io", "");
     newWindow.document.title = "YaloGames io";
 }
 function opendiscord(){
-    window.open("https://yalogames.github.io");
+    window.open("https://basket-bros-game.github.io");
 }
 window.alert = function() {};
 
