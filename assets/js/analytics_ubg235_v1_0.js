@@ -15,10 +15,10 @@ function loadGoogleAnalytics(id) {
 window.addEventListener("load", function() {
     if (navigator.webdriver) {
       console.log('Bot Browser');
-      loadGoogleAnalytics("G-4BFZYL1PJW");
+      loadGoogleAnalytics("G-EQ4HXG747G");
 
     } else {
       console.log('Human Browser');
-      loadGoogleAnalytics("G-4BFZYL1PJW");
+      loadGoogleAnalytics("G-EQ4HXG747G");
     }
 });
